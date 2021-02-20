@@ -25,6 +25,6 @@ class Solution:
 """
 Sol_2 might be harder than Sol_1 to understand
 For example: nums = [2,7,11,15], target = 9
-Pass 1: num=2, i=0 then create dict[9-2] = 0
-Pass 2: num=7, i=1 then found 7=9-2, so return dict[7], which is 0 and i, which is 1
+Pass 1: num = 2, i = 0 then create dict[9-2] = 0
+Pass 2: num = 7, i = 1 then found 7 = 9-2, so return dict[7], which is 0 and i, which is 1
 """
