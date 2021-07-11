@@ -18,6 +18,8 @@ class Solution:
 
 
 """
+HashTable 
+Time Complexity : O(n)
 For example: s={abcabcbb}
 Pass 1: i=0, char=a, max_length = max(0, 0-0+1), used[a] = 0
 Pass 2: i=1, char=b, max_length = max(1, 1-0+1), used[b] = 1
