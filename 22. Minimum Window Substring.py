@@ -1,6 +1,6 @@
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
-        # 使用 iterable 建立Counter
+        # 使用 iterable 建立 Counter
         need, missing = collections.Counter(t), len(t)
         i, I, J = 0, 0, 0
         # sliding window method using two pointer

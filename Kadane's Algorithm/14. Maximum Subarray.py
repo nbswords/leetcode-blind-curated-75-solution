@@ -5,3 +5,7 @@ class Solution:
             max_ending_here = max(num, max_ending_here + num)
             max_so_far = max(max_so_far, max_ending_here)
         return max_so_far
+""" 
+Time Complexity : O(n)
+Space Complexity: O(1)
+"""
