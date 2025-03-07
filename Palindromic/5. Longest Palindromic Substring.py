@@ -16,7 +16,7 @@ class Solution:
 
 
 """
-Expand Around Center Solutiona
+Expand Around Center Solution
 Time Complexity : O(n^2)
 Only 2n-1 centers for the center of a palindrome can be in between two letters
 For example, abba's center is between the two 'b's
