@@ -8,7 +8,7 @@ class Solution:
         for _ in range(m*n):
             result.append(matrix[r][c])
             matrix[r][c] = None  # initialize
-            # Wheb bump into m*n border
+            # When bump into m*n border
             if matrix[(r + dr) % m][(c + dc) % n] is None:
                 dr, dc = dc, -dr
             # walk
